@@ -1,0 +1,9 @@
+version: '2'
+services:
+  image: reporter
+  build: .
+  container_name: reporter
+  volumes:
+    - /srv/archive/reports:/srv/archive/reports
+  env_file:
+    - docker/.env_reporter

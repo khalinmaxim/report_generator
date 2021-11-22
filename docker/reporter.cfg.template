@@ -1,0 +1,15 @@
+{
+  "loglevel" : "${RP_LOG_LEVEL}",
+  "dry": ${RP_DRY},
+  "test": ${RP_TEST},
+  "database": {
+    "host": "${RP_HOST}",
+    "port": ${RP_PORT},
+    "name": "${RP_NAME}",
+    "username": "${RP_USER}",
+    "password": "${RP_PASSWORD}",
+    "channel": "${RP_CHANNEL}",
+    "timeout": ${RP_TIMEOUT}
+  },
+  "outpath": "${RP_OUTPATH}"
+}
